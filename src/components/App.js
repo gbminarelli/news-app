@@ -41,9 +41,6 @@ class App extends React.Component {
         })
         .catch(function(error) {
           console.log(error);
-        })
-        .finally(function() {
-          // nothing
         });
 
       rawData[countries[index]].push(
